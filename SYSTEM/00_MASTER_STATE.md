@@ -1,21 +1,24 @@
 # SYSTEM MASTER STATE
-Last Update: 2026-03-02 19:35
+Last Update: 2026-03-02 22:43
 
 ## Objective
-Private encrypted control network
+Private encrypted control network (Tailscale)
 Phone ↔ Windows machines
 No public exposure
 Production-grade SSH control
 
-## Current Global Status
-Network Layer: 100%
-SSH Layer: 95%
-Mobile Control: 85%
-Security Lockdown: In Progress
-Documentation Layer: Active
+## Server Host (Computer Room)
+Hostname: מזרחי
+Tailscale IP: 100.68.88.80
+Role: SERVER HOST (always-on)
+
+## Current Global Status (real)
+Network Layer: OK (Tailscale connected is required)
+SSH Layer: Running on server host (verify inbound via Tailscale only)
+Documentation Layer: Active (stored in GitHub)
 
 ## Next Critical Actions
-1. Validate SSH login from phone
-2. Enforce Tailscale-only firewall
-3. Move to key-only authentication
-4. Build control dashboard layer
+- Validate SSH login from phone to SERVER HOST (100.68.88.80)
+- Enforce firewall: SSH allowed only on Tailscale interface
+- Move SSH to key-only (no password)
+- Build control/dashboard layer on top (later)

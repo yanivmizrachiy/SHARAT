@@ -1,11 +1,11 @@
 # SECURITY MODEL
 
-✔ Private encrypted overlay network
+✔ Private encrypted overlay network (Tailscale)
 ✔ No router port forwarding
-✔ No third-party remote software
-✔ Direct SSH only
+✔ No public exposure
+✔ SSH as the control protocol
 
-Pending:
-- Final firewall lockdown
-- SSH key enforcement
-- Audit logging expansion
+Pending hardening (server host):
+- Firewall: SSH only on Tailscale
+- Key-only authentication
+- Confirm logs + monitoring

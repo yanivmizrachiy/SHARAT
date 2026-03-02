@@ -1,10 +1,10 @@
 # SSH INFRASTRUCTURE
 
+Server Host: מזרחי (100.68.88.80)
 OpenSSH Server: Installed
 Port: 22
-Current Mode: Listening (Firewall hardening ongoing)
 
-Planned:
-- Restrict to Tailscale interface only
-- Disable password authentication
-- Enable public key only
+Security target:
+- Allow SSH inbound ONLY via Tailscale interface
+- Prefer key-only auth (disable password)
+- Keep audit logs

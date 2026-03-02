@@ -1,19 +1,20 @@
 # DEVICES INVENTORY
 
-## PC חדר מחשבים
-Hostname: node
+## SERVER HOST — PC חדר מחשבים (Primary)
+Hostname: מזרחי
 Tailscale IP: 100.68.88.80
-SSH: Enabled
+SSH: Enabled (OpenSSH Server)
 Status: Active
+Responsibility: runs the always-on services (server role)
 
-## PC ראשי
+## CONTROL / DEV — PC ראשי (mizrachi)
 Hostname: mizrachi
 Tailscale IP: 100.99.185.100
 SSH: Enabled
-Role: Control Node
+Role: management + development + audits
 
-## Phone
+## PHONE (client)
 Model: Samsung S928B
 Termux: Installed
-Role: Global SSH Client
-Status: Pending full auth validation
+Role: global SSH client
+Status: pending full auth validation

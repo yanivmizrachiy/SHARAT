@@ -1,7 +1,10 @@
 # ROADMAP
 
-Phase 1 – Network Infrastructure ✔
-Phase 2 – SSH Hardening (In Progress)
-Phase 3 – Mobile Control Full Validation
-Phase 4 – AI Control Dashboard
-Phase 5 – Worksheet Engine Expansion
+Now:
+- Server Host = Computer Room PC (מזרחי / 100.68.88.80)
+- Phone connects to Server Host via SSH over Tailscale
+
+Next:
+- SSH hardening (tailscale-only + key-only)
+- Remote command runner layer
+- Dashboard layer

@@ -1,13 +1,7 @@
-# WORKSHEET SYSTEM
+# WORKSHEET SYSTEM (separate project)
 
-Preview Server: Port 5500
-GitHub: Connected
-Branch: main
+This repo SHARAT is the CONTROL CENTER documentation & automation hub.
 
-Status:
-Base system operational
-Scheduled preview task active
-
-Next:
-- AI worksheet generation layer
-- RULES.md governance enforcement
+Worksheet engine lives in:
+C:\Users\yaniv\worksheet-system
+Preview: http://127.0.0.1:5500 (local)
