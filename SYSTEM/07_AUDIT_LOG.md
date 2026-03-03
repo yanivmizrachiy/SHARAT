@@ -8,3 +8,5 @@ Tailscale operational.
 2026-03-02 22:43 – Set COMPUTER ROOM PC as SERVER HOST: מזרחי (100.68.88.80). Updated SYSTEM docs and pushed to GitHub.
 
 2026-03-03 12:51 – SALON PC fixed+documented: sshd auto-start + tailscale-only firewall. Host=MIZRACHI TS=100.99.185.100
+
+2026-03-03 12:52 – SALON PC fixed+documented: sshd auto-start + tailscale-only firewall. Host=MIZRACHI TS=100.99.185.100
